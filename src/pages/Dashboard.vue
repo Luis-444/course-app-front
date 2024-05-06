@@ -18,6 +18,8 @@
 </script>
 <template>
     <div>
-        <button @click="logout" class="bg-red-500">Logout</button>
+        <v-btn @click="logout">
+            Logout
+        </v-btn>
     </div>
 </template>
