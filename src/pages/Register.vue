@@ -46,7 +46,7 @@
           <a href="/login" class="text-xs text-indigo-500 hover:text-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" >Ya tengo una cuenta</a>
         </div>
         <div>
-          <button type="submit">Registrarme</button>
+          <button type="submit" class="w-full justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-indigo-600">Registrarme</button>
         </div>
       </form>
     </div>
