@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Dashboard from '@pages/Dashboard.vue';
+import Categories from '@pages/Categories.vue';
 import Register from '@pages/Register.vue';
 import Login from '@pages/Login.vue';
 import NotFound from '@pages/NotFound.vue';
@@ -38,6 +39,11 @@ const routes: Array<RouteRecordRaw> = [
         meta: {
             isGuest: true
         }
+    },
+    {
+        path: '/categories',
+        name: 'Categories',
+        component: Categories,
     },
 ];
 

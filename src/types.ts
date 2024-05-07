@@ -1,3 +1,4 @@
+//User
 export interface User {
     id: number;
     name: string;
@@ -11,4 +12,16 @@ export const defaultUser: User = {
     email: '',
     password: '',
     password_confirmation: '',
+}
+
+//Categories
+export interface Category {
+    id: number;
+    name: string;
+    code: number;
+}
+export const defaultCategory: Category = {
+    id: 0,
+    name: '',
+    code: 0,
 }
