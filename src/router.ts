@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import Dashboard from '@pages/Dashboard.vue';
 import Categories from '@pages/Categories.vue';
 import Register from '@pages/Register.vue';
+import Course from '@pages/Course.vue';
 import Login from '@pages/Login.vue';
 import NotFound from '@pages/NotFound.vue';
 import { useTokenStore } from './store/useTokenStore';
@@ -44,6 +45,11 @@ const routes: Array<RouteRecordRaw> = [
         path: '/categories',
         name: 'Categories',
         component: Categories,
+    },
+    {
+        path: '/courses',
+        name: 'courses',
+        component: Course,
     },
 ];
 
