@@ -24,26 +24,26 @@
 <template>
   <div class="max-h-screen flex items-center justify-center w-full">
     <div class="bg-white shadow-md rounded-lg px-8 py-6 max-w-md">
-      <h1 class="text-2xl dark:text-gray-400">Registrate!</h1>
+      <h1 class="text-2xl font-bold text-center mb-4 dark:text-gray-500">¡Registrate!</h1>
       <form v-on:submit.prevent="register">
         <div class="mb-4 mt-2">
-          <label for="" class="block text-sm text-gray-700 mb-2">Ingresa tu nombre</label>
+          <label for="" class="block text-sm text-gray-400 mb-2">Ingresa tu nombre</label>
           <input type="text" v-model="user.name" class="shadown-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none" required>
         </div>
         <div class="mb-4">
-          <label for="" class="block text-sm text-gray-700 mb-2">Ingresa tu email</label>
+          <label for="" class="block text-sm text-gray-400 mb-2">Ingresa tu email</label>
           <input type="email" v-model="user.email" class="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none" required>
         </div>
         <div class="mb-4">
-          <label for="" class="block text-sm text-gray-700 mb-2">Ingresa tu contraseña</label>
+          <label for="" class="block text-sm text-gray-400 mb-2">Ingresa tu contraseña</label>
           <input type="password" v-model="user.password" class="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none" required>
         </div>
         <div class="mb-2">
-          <label for="" class="block text-sm text-gray-700 mb-2">Confirma tu contraseña</label>
+          <label for="" class="block text-sm text-gray-400 mb-2">Confirma tu contraseña</label>
           <input type="password" v-model="user.password_confirmation" class="shadow-sm rounded-md w-full px-3 py-2 border border-gray-300 focus:outline-none" required>
         </div>
         <div class="flex items-center justify-between mb-4">
-          <a href="/login" class="text-xs text-indigo-500 hover:text-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" >Ya tengo una cuenta</a>
+          <a href="/login" class="text-xs text-indigo-500 hover:text-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" >Ya tengo una cuenta</a>
         </div>
         <div>
           <button type="submit" class="w-full justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-indigo-600">Registrarme</button>
